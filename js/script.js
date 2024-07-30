@@ -1,5 +1,5 @@
-const clientId = '23b55cce2b7e43088240884c685068bc';
-const clientSecret = '4d5f90b868dc430ab516578c63cc79e5';
+const clientId = 'your api key';
+const clientSecret = 'your secret key';
 
 
 async function getToken() {
