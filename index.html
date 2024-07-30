@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: url('img/bg-music.jpg'); background-size: cover; background-position: center; opacity: 1;" class="text-white-800"class="text-white">
+    <div class="container mx-auto p-4">
+        <h1 class="text-4xl font-bold text-center my-8">Music Player</h1>
+        <div class="flex justify-center mb-4">
+            <input id="searchInput" type="text" class="p-2 rounded-l-md bg-gray-700 text-white placeholder-gray-400" placeholder="Search for songs or artists...">
+            <button id="searchButton" class="p-2 bg-indigo-500 rounded-r-md">Search</button>
+        </div>
+        <div id="results" class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 drop-shadow-lg "></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
